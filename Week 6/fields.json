@@ -1,0 +1,23 @@
+{
+    "linkedin": [
+        "the name of the compamy", 
+        "the job title", 
+        "date posted", 
+        "location"
+    ],
+    "sportsnews": [
+        "title of the main article", 
+        "the name of the author", 
+        "the data of publish", 
+        "the content of the article",
+        "the Sports Category of the article"
+    ],
+    "jobs":  [
+        "the name of the compamy", 
+        "the job title",
+        "date posted",
+        "location", 
+        "salary"
+        ]
+    
+}

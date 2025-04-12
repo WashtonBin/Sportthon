@@ -1,0 +1,50 @@
+# Article Scraper
+
+This project scrapes main articles from a specified website.
+
+## Setup
+
+
+1. Install the required libraries:
+    
+    pip install -r requirements.txt
+    
+2. Make sure download the correct version of chromedriver
+Download: https://googlechromelabs.github.io/chrome-for-testing/
+## Usage
+
+Scrap data from "Nike" and store them into .md file
+1. Update the `url` variable in [urls.json] 
+2. Update the `fields` variable in [fields.json]
+3. Run the script:
+    python scraper.py
+
+Embedding data with OpenAi and Load data to MongoDB Atlas
+1. modify dbName = "Your_db_name" 
+2. CollectionName ="your_collection_name" to match your database
+3. Run the script:
+    python load_data.py
+
+Extract data from MongoDB Atlas and Embedding data
+1. modify dbName = "Your_db_name" 
+2. CollectionName ="your_collection_name" to match your database
+3. Run the script:
+    python extract_information.py
+
+Note: You should create your own database and search index in MongoDB.
+Match index_name="knn" when you create search index.
+Choose which database you want to embed
+Copy and Paste this json to search index.
+ {
+  "mappings": {
+    "dynamic": true,
+    "fields": {
+      "embedding": {
+        "dimensions": 1536,
+        "similarity": "cosine",
+        "type": "knnVector"
+      }
+    }
+  }
+}
+    
