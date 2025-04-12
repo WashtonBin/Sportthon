@@ -44,7 +44,10 @@ dist/
 *.egg-info/
 
 
+# Ignore venv
+venv/
 
+#Specific files
 .gradio/
 chromedrive_win64/
 
