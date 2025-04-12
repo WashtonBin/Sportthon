@@ -1,0 +1,26 @@
+# Flask-based Query and File Processing Application
+
+This project provides a Flask-based API for processing uploaded video and generate a highlight video base using Gemini model.
+
+## Files Overview
+
+### 1. `app.py`
+The main Flask application that provides two API endpoints:
+- **`/highlights`**: Handles file uploads, processes the videos.
+
+
+#### Key Features:
+- Handles multiple file uploads.
+- Supports video highlights generator using the `main` function from `gemini.py`. It will make response.json and highlights.json.
+- Generates highlights using the `generate_highlights` function from `trailer.py`.
+
+#### How to Run:
+run
+python -r requirements.txt
+You may need to install ffmpeg from a online source
+
+```bash
+python app.py
+
+
+
