@@ -49,7 +49,7 @@ venv/
 
 # Ignore folders
 amazon_review/
-medical_article/
+medical_articles/
 uploads
 
 Week10_approach.txt

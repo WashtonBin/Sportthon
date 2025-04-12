@@ -1,0 +1,65 @@
+# Flask-based Query and File Processing Application
+
+This project provides a Flask-based API for processing uploaded files and querying a knowledge base using OpenAI's GPT model, Pinecone and, Langchain.
+
+## Files Overview
+
+### 1. `app.py`
+
+"""
+        For pubmed.py and pinecone_assistant.py
+    
+"""   
+- **`/pubmed`**: fetch data from url
+- **`/generate_pinecone`**: Create your own pinecone assistant and input data
+- **`/ask_pinecone`**: Ask pinecone assistant questions.
+
+ """
+        For pinecone_chatbot.py
+    
+    """
+
+- **`/load_json`**: create your own pinecone index name, embedding data, and load data to this index name.
+- **`/pinecone_chatbot`**: ask question.
+
+
+    """
+    
+    for searchbox_suggestions.py
+    """
+
+- **`/searchbox`**: use Google url to get autocompleted result
+
+#### Key Features:
+- using pinecone assistant and pineone vector database to be an AI agent.
+- Supports Jsonl extraction using the langchain jsonLoader  `pineone_assistany.py`.
+- Processes user queries using pinecone assistant model and the chatgpt embedding model.
+
+#### How to Run:
+```bash
+python app.py
+
+Open the postman
+/pubmed
+catagory  "topic you want to fetch"
+
+/generate_pinecone
+assistant_name "create your own pinecone assistant name"
+
+/ask_pinecone
+quert   "ask your question"
+
+
+
+
+
+/load_json
+index_name "create your own pinecone index name"
+
+/pinecone_chatbot
+query "ask your question"
+index_name "your index_name"
+
+
+/searchbox
+query  "Your query"
