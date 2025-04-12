@@ -1,0 +1,20 @@
+# Article Scraper
+
+This project scrapes main articles from a specified website.
+
+## Setup
+
+
+1. Install the required libraries:
+    
+    pip install -r requirements.txt
+    
+2. Make sure download the correct version of chromedriver
+Download: https://googlechromelabs.github.io/chrome-for-testing/
+## Usage
+
+1. Update the `url` variable in [urls.json] 
+2. Update the `fields` variable in [fields.json]
+3. Run the script:
+    python scraper.py
+    
