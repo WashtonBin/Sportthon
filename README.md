@@ -1,11 +1,13 @@
 # Sportthon Intern
 
-Week 4: Article Scraper	
-Built a Web Scraper to scrap websites and answer queries with Selenium, Pandas, Beautiful Soup, and ChatGPT API, enabling users to scrap websites without coding.
-Selenium provides secure web scraping such as cookies, scroll down, human-like behavior, etc.
+🎬 Video Editor
+Developed a video editor using Gemini Flash 2.0, MoviePy, and Postman to analyze and manipulate video content. Integrated video feature analysis for dynamic editing and automation.
 
-Week 6: Web Scraper can scrap any websites with selenium and ChatGPT. I scraped Nike Offical website. It returns location, the name of staffs, the company culture, etc. Users can modify the json files to add URLs, and then ChatGPT will handle the embedding queries.
+🕸️ Article Scraper
+Built a no-code web scraper that allows users to scrape websites and query content using Selenium, Pandas, BeautifulSoup, and the ChatGPT API. Implemented secure scraping practices including cookie management, infinite scrolling, and human-like interactions.
 
-Week 9: Video Editor can edit highlights based on Gemini flash 2.0 analyzing video features and Moviepy. Beacause of the limitation and correctess of Gemini output, we can generate a less 45 mins video. Note: I tested movies, animes, and sports games. Gemini can not work on sports games. I assume that Gemini is not able to distinguish between the important event in a sport game even though I prompted "focusing on basketball shots". Gemini return an empty list.
+📄 Web Scraper & RAG System
+Developing an advanced Web Scraper and Retrieval-Augmented Generation (RAG) system using Selenium, BeautifulSoup, LangChain, MongoDB Atlas, and the ChatGPT API. Automatically extracts text from websites and answers user queries based on RAG for enhanced information retrieval.
 
-Week 10: Pinecone assistant&chatbot can fetch data from "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi" a medical article website. And then I provide two options to store data including Pinecone assistant and Pinecone database. If you choose Pinecone assistant, this agent automatically embed data and give you an answer. If you pick pinecone database, ChatGPT will embed data and then store data to the database.
+🤖 Pinecone Assistant & Chatbot
+Created a Pinecone-powered assistant and chatbot using LangChain, Pinecone, Postman, and the OpenAI API. Designed to extract medical articles, embed content using OpenAI, store it in Pinecone, and provide accurate, context-aware responses using a vector-based retrieval approach.
