@@ -1,0 +1,60 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore output directories
+output/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore test coverage files
+.coverage
+htmlcov/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+#Ignore venv
+venv/
+
+
+# Ignore folders
+amazon_review/
+medical_articles/
+temp/
+
+
+
+uploads
+Week11_approach.txt
+
+

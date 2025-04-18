@@ -1,0 +1,8 @@
+mcp
+mcp[cli]
+python_dotenv
+agents
+requests
+sqllite
+flask
+werkzeug

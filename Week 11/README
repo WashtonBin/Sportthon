@@ -1,0 +1,43 @@
+# Flask-based MCP Server with SQLite Application
+
+This project provides a Flask-based API for processing uploaded CSV files to SQLite and querying a knowledge base using OpenAI's GPT model, OpenAI SDK
+
+
+## Setup
+
+
+1. Install the required libraries:
+    
+    pip install -r requirements.txt
+
+2. Before building this project, users nust install npm, node.js, and uv.
+    
+## Files Overview
+
+### 1. `app.py`
+
+- **`/create_table`**: Generate your own sql query to fetch the data
+- **`/'/sqlite'`**: Read csv files and load data to SQLite
+
+
+#### Key Features:
+- using OpenAI SDK and FastMCP Server.
+- Load CSV files to database automatically `sqlie.py.py`.
+- No SQL knowledge users also can build table and fetch data with prompts.
+
+#### How to Run:
+```bash
+python app.py
+
+Open the postman
+/create_table
+file  "CSV files"
+query create a database in "YOUR_FOLDER_NAME". table name is "YOUR_TABLE_NAME", database name is "YOUR_DATABASE_NAME". load "YOUR_FOLDER_NAME" from the uploads folder
+
+
+/sqlite
+query   fetch all data in database name ""YOUR_DATABASE_NAME"" and table name "YOUR_TABLE_NAME"
+
+NOTE: USERS must provide correct table name, database name, and which columns or rows they want to fetch data because this application is in case sensitive. Users can use sample.csv and SAMPLE.db to test this project on your local machine.
+
+In mcp_demo.py contains three mcp servers. Users can test ""Currency Exchange Server"" and "Weather Server" locally.
