@@ -2,16 +2,7 @@
 
 This project provides a Flask-based API for processing uploaded CSV files to SQLite and querying a knowledge base using OpenAI's GPT model, OpenAI SDK
 
-
-## Setup
-
-
-1. Install the required libraries:
-    
-    pip install -r requirements.txt
-
-2. Before building this project, users nust install npm, node.js, and uv.
-    
+Before running this project, you must install npm, node.js, and uv.
 ## Files Overview
 
 ### 1. `app.py`
@@ -38,6 +29,6 @@ query create a database in "YOUR_FOLDER_NAME". table name is "YOUR_TABLE_NAME", 
 /sqlite
 query   fetch all data in database name ""YOUR_DATABASE_NAME"" and table name "YOUR_TABLE_NAME"
 
-NOTE: USERS must provide correct table name, database name, and which columns or rows they want to fetch data because this application is in case sensitive. Users can use sample.csv and SAMPLE.db to test this project on your local machine.
+NOTE: USERS must provide correct table name, database name, and which columns or rows they want to fetch data because this application is in case sensitive.
 
-In mcp_demo.py contains three mcp servers. Users can test ""Currency Exchange Server"" and "Weather Server" locally.
+

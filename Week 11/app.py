@@ -3,7 +3,6 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from mcp_demo import sql_prompt
 import os
-import asyncio
 
 
 app = Flask(__name__)

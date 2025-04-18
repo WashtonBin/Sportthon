@@ -75,9 +75,9 @@ def delete(query: str, user_id: int, db_name: str):
     try:
         with conn:
            conn.execute(query)   
-
+           return f"Deleted user with ID {user_id} from '{db_name}'"
     except sqlite3.OperationalError as e:
-        print(f"Error: {e}")
+        return(f"Error: {e}")
     finally:
         conn.close()      
 

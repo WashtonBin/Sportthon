@@ -48,8 +48,6 @@ venv/
 
 
 # Ignore folders
-amazon_review/
-medical_articles/
 temp/
 
 
