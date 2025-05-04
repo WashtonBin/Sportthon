@@ -1,0 +1,17 @@
+openai
+openai-agents
+pydantic
+pydantic_core
+python-dotenv
+requests
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+gspread
+beautifulsoup4
+html2text
+tiktoken
+selenium
+readability-lxml
+openpyxl
+sqllite
